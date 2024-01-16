@@ -1,28 +1,44 @@
-export const Header = () => {
+const Header = () => {
   return (
-    <div className="container mx-auto grid grid-cols-4 gap-10 my-10">
-      <div className="col-span-1 ">
-        <img src="/image.jpeg" alt="" />
+    <div className="container m-2 mx-auto grid md:grid-cols-3 gap-10 my-5 md:my-10 p-2 items-center">
+      <div className="md:col-span-1 w-60 h-60 md:w-full md:h-full md:block mx-auto ">
+        <img src="/transparent.png" className="rounded-full" alt="" />
       </div>
-
-      <div className="col-span-3">
-        <code className="text-md text-primary font-bold">Hi, my name is</code>
-        <h1 className="font-bold text-7xl mt-3 mb-2">Kafi Anan Rafi</h1>
-        <h1 className="text-5xl text-slate-400">
-          I love building things for the Web.
+      <div className="md:col-span-2 text-center md:text-left">
+        <code className="text-md text-green-400 bg-neutral p-1 px-2 rounded-sm">
+          Hello! My name is
+        </code>
+        <h1 className="font-bold text-5xl md:text-6xl mt-3 mb-3">
+          Kafi Anan Rafi
         </h1>
-        <div className="grid grid-cols-4 gap-5">
-          <p className="text-slate-300 text-lg mt-2 col-span-3">
-            I'm a <span className="text-primary">software engineer</span>{" "}
+        <h1 className="md:text-5xl text-3xl text-slate-400 mb-1">
+          I love building things for the web.
+        </h1>
+        <div className="grid">
+          <p className="text-slate-300 text-md md:text-lg mt-2">
+            I'm a <span className="text-green-400">Software Engineer</span>{" "}
             specializing in building (and occasionally designing) full-stack
-            application using{" "}
-            <code className="font-bold  text-sky-400">TypeScript</code>,{" "}
-            <code className="font-bold text-secondary">React.js</code>,{" "}
-            <code className="font-bold text-warning">Next.js</code> &{" "}
-            <code className="font-bold text-error">Node.js</code>
+            applications using{" "}
+            <span className="text-sky-500 bg-neutral px-2 rounded-sm">
+              TypeScript
+            </span>
+            ,{" "}
+            <span className="text-teal-400 bg-neutral px-2 rounded-sm">
+              React.js
+            </span>
+            ,{" "}
+            <span className="text-yellow-300 bg-neutral px-2 rounded-sm">
+              Next.js
+            </span>{" "}
+            &{" "}
+            <span className="text-pink-400 bg-neutral px-2 rounded-sm">
+              Node.js
+            </span>
           </p>
         </div>
       </div>
     </div>
   );
 };
+
+export default Header;

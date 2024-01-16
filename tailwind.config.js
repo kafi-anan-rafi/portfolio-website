@@ -12,7 +12,7 @@ export default {
       {
         night: {
           ...require("daisyui/src/theming/themes")["night"],
-          primary: "#10b981",
+          primary: "#4ade80",
         },
       },
     ],
