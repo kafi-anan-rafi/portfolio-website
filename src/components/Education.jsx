@@ -2,9 +2,9 @@ import Card from "./Card";
 
 const Education = () => {
   return (
-    <div className="container mx-auto p-2">
-      <div className="bg-primary rounded-sm text-primary-content text-3xl py-1 font-bold grid place-content-center">
-        Education
+    <div id="education" className="container mx-auto p-2 bg-base-200">
+      <div className="rounded-sm text-3xl py-1 mt-5 font-bold text-center underline decoration-green-400 underline-offset-4">
+        🎓 Education
       </div>
       <Card />
     </div>

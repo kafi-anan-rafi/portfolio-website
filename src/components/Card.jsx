@@ -2,43 +2,47 @@ import React from "react";
 
 const Card = () => {
   return (
-    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-5">
+    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical my-10">
       {/* University */}
       <li>
         <div className="timeline-middle">
           <img src="/aiub.png" alt="aiub logo" className="w-12 h-12" />
         </div>
         <div className="timeline-start mb-10 md:text-end">
-          <time className="italic">Jan 2019 - Sept 2023</time>
+          <time className="italic text-slate-400">Jan 2019 - Sept 2023</time>
           <div className="text-xl font-bold text-blue-500">
             American International University-Bangladesh (AIUB)
           </div>
           <div>BSc in Computer Science and Engineering (CSE)</div>
-          <div className="text-sm font-bold mb-3 md:mb-0">CGPA: 3.50 (out of 4.00)</div>
+          <div className="text-sm font-bold text-green-300 mb-3 md:mb-0">
+            CGPA: 3.50 (out of 4.00)
+          </div>
         </div>
-        <hr />
+        <hr className="bg-slate-600"/>
       </li>
-      {/* College */}
 
-      <li className="">
-        <hr />
+      {/* College */}
+      <li>
+        <hr className="bg-slate-600"/>
         <div className="timeline-middle">
           <img src="/bmarpc.png" alt="aiub logo" className="w-12 h-12" />
         </div>
         <div className="timeline-end">
-          <time className="italic">Feb 2016 - Dec 2018</time>
+          <time className="italic text-slate-400">Feb 2016 - Dec 2018</time>
           <div className="text-xl font-bold text-yellow-300">
             Birshreshtha Munshi Abdur Rouf Public College
           </div>
           <div>Higher Secondary Certificate (HSC)</div>
-          <div className="text-sm font-bold mb-3 md:mb-0">GPA: 4.33 (out of 5.00)</div>
+          <div className="text-sm text-green-300 font-bold mb-3 md:mb-0">
+            GPA: 4.33 (out of 5.00)
+          </div>
         </div>
-        <hr />
+        <hr className="bg-slate-600"/>
       </li>
 
       {/* School */}
       <li>
-        <hr />
+        <hr className="bg-slate-600"/>
         <div className="timeline-middle">
           <img
             src="/LHS.png"
@@ -47,12 +51,16 @@ const Card = () => {
           />
         </div>
         <div className="timeline-start md:text-end mb-10">
-          <time className="italic">Jan 2014 - Dec 2016</time>
-          <div className="text-xl font-bold text-secondary">Lordhardinge Secondary School</div>
+          <time className="italic text-slate-400">Jan 2014 - Dec 2016</time>
+          <div className="text-xl font-bold text-secondary">
+            Lordhardinge Secondary School
+          </div>
           <div>Secondary School Certificate (SSC)</div>
-          <div className="text-sm font-bold">CGPA: 5.00 (out of 5.00)</div>
+          <div className="text-sm font-bold text-green-300">
+            CGPA: 5.00 (out of 5.00)
+          </div>
         </div>
-        <hr />
+        <hr className="bg-slate-600"/>
       </li>
     </ul>
     // <ol class="relative border-s border-gray-200 dark:border-gray-700">

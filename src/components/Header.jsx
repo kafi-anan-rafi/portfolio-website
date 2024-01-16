@@ -9,7 +9,7 @@ const Header = () => {
   });
 
   return (
-    <div className="container m-2 mx-auto grid md:grid-cols-3 gap-10 my-5 md:my-10 p-2 items-center">
+    <div className="container m-2 mx-auto grid md:grid-cols-3 gap-10 my-5 md:my-20 p-2 items-center">
       <div className="md:col-span-1 w-60 h-60 md:w-full md:h-full md:block mx-auto ">
         <img src="/transparent.png" className="rounded-full" alt="" />
       </div>

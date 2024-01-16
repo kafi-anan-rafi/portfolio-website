@@ -24,25 +24,25 @@ const Dropdown = () => {
       >
         <li className="hover:text-primary">
           <a>
-            <span className="text-primary hover:text-white-100">i.</span>
+            <span className="text-primary text-lg hover:text-white-100">🎓</span>
             Education
           </a>
         </li>
         <li className="hover:text-primary">
           <a>
-            <span className="text-primary hover:text-white-100">ii.</span>
+            <span className="text-primary text-lg hover:text-white-100">🛹</span>
             Skills
           </a>
         </li>
         <li className="hover:text-primary">
           <a>
-            <span className="text-primary hover:text-white-100">iii.</span>
+            <span className="text-primary text-lg hover:text-white-100">🧑‍💻</span>
             Projects
           </a>
         </li>
         <li className="hover:text-primary">
           <a>
-            <span className="text-primary hover:text-white-100">iv.</span>
+            <span className="text-primary text-lg hover:text-white-100">🤙</span>
             Contacts
           </a>
         </li>
@@ -52,7 +52,7 @@ const Dropdown = () => {
             target="_blank"
             className="text-primary py-1 font-bold border border-green-400 rounded-md text-center hover:bg-primary hover:text-neutral"
           >
-            Resume
+            📇 Resume
           </a>
         </li>
       </ul>
