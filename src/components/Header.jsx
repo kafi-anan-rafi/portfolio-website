@@ -17,7 +17,7 @@ const Header = () => {
         <code className="text-md text-green-400 bg-neutral p-1 px-2 rounded-sm">
           Hello! My name is
         </code>
-        <h1 className="font-bold text-5xl md:text-6xl mt-3 mb-3">
+        <h1 className="text-5xl font-black md:text-6xl mt-3 mb-3">
           <span>{name}</span>
           <Cursor cursorStyle="|" cursorColor="#4ade80" />
         </h1>
@@ -26,7 +26,7 @@ const Header = () => {
           I love building things for the web.
         </h1>
         <div className="grid">
-          <p className="text-slate-300 text-md md:text-lg mt-2">
+          <p className="text-slate-300 text-md md:text-lg my-2">
             I'm a <span className="text-green-400">Software Engineer</span>{" "}
             specializing in building (and occasionally designing) full-stack
             applications using{" "}
