@@ -1,4 +1,13 @@
+import { Cursor, useTypewriter } from "react-simple-typewriter";
+
 const Header = () => {
+  const [name] = useTypewriter({
+    words: ["Kafi Anan Rafi"],
+    loop: {},
+    typeSpeed: 200,
+    deleteSpeed: 100,
+  });
+
   return (
     <div className="container m-2 mx-auto grid md:grid-cols-3 gap-10 my-5 md:my-10 p-2 items-center">
       <div className="md:col-span-1 w-60 h-60 md:w-full md:h-full md:block mx-auto ">
@@ -9,8 +18,10 @@ const Header = () => {
           Hello! My name is
         </code>
         <h1 className="font-bold text-5xl md:text-6xl mt-3 mb-3">
-          Kafi Anan Rafi
+          <span>{name}</span>
+          <Cursor cursorStyle="|" cursorColor="#4ade80" />
         </h1>
+
         <h1 className="md:text-5xl text-3xl text-slate-400 mb-1">
           I love building things for the web.
         </h1>

@@ -1,5 +1,8 @@
 import React from "react";
 import { TbCode, TbHexagonLetterR } from "react-icons/tb";
+import { SiCodingninjas } from "react-icons/si";
+import { AiOutlineCode } from "react-icons/ai";
+import { SiVisualstudiocode } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -7,13 +10,13 @@ const Navbar = () => {
       <div className="container mx-auto bg-base-300 rounded-lg mt-1">
         <div className="flex-1">
           <a className="btn px-2 rounded-md text-lg md:text-xl text-primary p-1 ml-1 my-1">
-            <TbCode size={32} className="text-green-400" />
+            <AiOutlineCode size={25} className="text-green-400" />
             {/* <img
-              src="/photo.png"
+              src="/student-lounge.png"
               alt="kafi"
               className="w-10 h-10 rounded-full"
             /> */}
-            <code className="">Rafi</code>
+            <code className="">Kafi Anan</code>
           </a>
         </div>
         <div className="flex-none hidden md:block">
